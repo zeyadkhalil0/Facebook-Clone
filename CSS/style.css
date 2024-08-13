@@ -1,0 +1,763 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* start navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 8px 1px #d8d8e2;
+  padding: 8px 10px 0px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8%;
+}
+
+.nav-left {
+  display: flex;
+}
+
+/* serch icon */
+.search .fa-solid {
+  color: rgb(15, 111, 236);
+  left: 33px;
+  top: 10px;
+  position: absolute;
+}
+
+/* serch input */
+.nav-left .input {
+  border: none;
+  padding: 12px 10px 12px 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+  background-color: rgb(232, 227, 235);
+}
+
+/* facebook icon */
+.nav-left .fa-brands {
+  color: #1877f2;
+  display: flex;
+  font-size: 230%;
+  margin-top: 1px;
+}
+
+.search {
+  position: relative;
+  right: 8px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* ?end nav-left */
+/* ------------------------------------ */
+/* ?start nav=middle */
+.nav-middle {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* home icon */
+.fa-home {
+  border-bottom: 2px solid #1877f2;
+  color: #1877f2;
+}
+
+/* Grouping */
+.fa-puzzle-piece,
+.fa-users,
+.fa-store,
+.fa-tv,
+.fa-home {
+  margin: 0px 22px;
+  font-size: 25px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+/* Grouping Hover */
+.fa-puzzle-piece:hover,
+.fa-users:hover,
+.fa-store:hover,
+.fa-tv:hover {
+  color: #1877f2;
+  background-color: #f0f0f7;
+  border-radius: 10%;
+  transform: scale(1.2);
+}
+
+/* end nav-middle */
+/* ?--------------------------------------------- */
+/* start nav-right */
+.nav-right {
+  align-items: center;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+/* imge */
+.ph {
+  border-radius: 50%;
+  width: 37px;
+  height: 35px;
+  margin: 0px 10px;
+}
+
+/* imge and name */
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0px 10px;
+}
+
+/* Grouping items-icons */
+.fa-bars,
+.fa-facebook-messenger,
+.fa-bell,
+.fa-caret-down {
+  margin: 0px 5px;
+  background-color: #e2e2e9;
+  border-radius: 70%;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.5s;
+}
+
+/* Grouping items-icons:hover */
+.fa-bars:hover,
+.fa-facebook-messenger:hover,
+.fa-bell:hover,
+.fa-caret-down:hover {
+  color: #1877f2;
+}
+
+/* end nav-bar */
+/* *-------------------------------------- */
+/* *start Section  */
+.all {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* *end section */
+
+/* start div-left img */
+.left-side img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px 10px;
+  display: flex;
+}
+
+/* start div-left li */
+.left-side li {
+  display: flex;
+  margin: 10px 10px -11px;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px -20px;
+  transition: 0.5s;
+
+}
+
+/* left side */
+.left-side {
+  background-color: #edeef3;
+  width: 280px;
+  height: 500vh;
+  transition: 2s;
+  transition-duration: 2s;
+position: fixed;
+left: 0;
+}
+
+.left-side:hover {
+  background-color: #e2e2e9;
+}
+
+.left-side ul {
+  padding-top: 55px;
+}
+
+.left-side ul :hover {
+  background-color: #c6c6d4;
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
+/* my pic */
+.my {
+  border-radius: 50%;
+}
+
+.left-side p {
+  align-items: center;
+  display: flex;
+  padding: 0px 0px 12px;
+}
+
+/* end left-side */
+
+/* *------------------------------------- */
+
+/* start right=side **/
+
+.right-side {
+  background-color: #edeef3;
+  width: 250PX;
+  height: 500vh;
+  transition: 0.5s;
+  position:fixed;
+  right: 0%;
+}
+
+/* right-side hover */
+.right-side:hover {
+  background-color: #e2e2e9;
+}
+
+
+
+/* sponserd div p */
+.sponserd {
+  color: #626380;
+  font-size: 25px;
+  display: flex;
+  align-items: left;
+  padding: 30px 18px;
+  font-weight: bold;
+  margin-top: 40PX;
+}
+
+/* find hope div */
+.find-hope {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* img of find-hope */
+.find-hope img {
+  width: 120px;
+  height: 70px;
+  border-radius: 10%;
+  margin-left: 15px;
+  transition: 1s;
+}
+
+/* img of find-hope:hover */
+.find-hope img:hover {
+  transform: scale(1.1)
+}
+
+/* find-hope text */
+.find-hope h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 15px;
+
+
+}
+
+/* start div-adobe */
+.adobe {
+  display: flex;
+  margin: 15px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* start img-adobe-div */
+.adobe img {
+  width: 300px;
+  height: 100px;
+  border-radius: 10%;
+  transition: 1s;
+}
+
+/* start img-adobe-div hover */
+.adobe img:hover {
+  transform: scale(1.1);
+}
+
+/* adobe-div_h3 */
+.adobe h3 {
+  padding-left: 15px;
+  margin-top: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ?end adobe */
+
+/* start contatc-icons div */
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 25px;
+
+}
+
+/* icons-div-left */
+
+.iconn {
+  align-items: center;
+  display: flex;
+  padding-left: 50px;
+
+}
+
+/* Grouping icons-right-side contact */
+.iconn .fa-ellipsis-h,
+.fa-search,
+.fa-video {
+  padding: 0px 8px;
+
+}
+
+/* ?----------end icons---------------- */
+/* img */
+.contact-img img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: 0.1s;
+
+}
+
+/* img hover */
+.contact-img img:hover {
+  transform: scale(1.2);
+}
+
+/* li */
+.contact-img li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: 0.5s;
+  margin-left: 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* li hover */
+.contact-img li:hover {
+  background-color: #d0d1e0;
+  border-radius: 7px;
+}
+
+/* p */
+.contact-img p {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+/*? end all right-side 
+*/
+
+/** start middle side 
+*/
+/* important to responsive navbar with middle */
+.middle {
+  padding-top: 70px;
+  background-color: #edeef3;
+  width: 65%;
+  height: 500vh;
+position: relative;
+left:20%;  
+}
+
+/* contain-div-stories  */
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grouping-stories */
+.my-self,
+.second-story,
+.third-story,
+.fourth-story,
+.fifth-story {
+  background-color: #ffffff;
+  margin-right: 15px;
+  width: 120px;
+  height: 200px;
+  border-radius: 20px;
+
+}
+
+
+/** My Story 
+ */
+.my-self img {
+  width: 100%;
+  height: 70%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+/* icon + */
+.my-self .fa-solid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 110px;
+  background-color: #1877f2;
+  border-radius: 50%;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border: 3px solid white;
+}
+
+
+/* make-story p */
+.make-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+/* img of second story */
+.second-story img {
+  width: 120px;
+  border-radius: 10px;
+  height: 200px;
+  position: absolute;
+}
+
+/* P of second story */
+.second-story p {
+  display: flex;
+  padding-top: 170px;
+  padding-left: 8px;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-weight: 700;
+  border: 10px black;
+}
+
+/* small img of second-story */
+.second-story .small-img {
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+  border-radius: 50px;
+  border: 2px solid #1877f2;
+}
+
+/*end second-story 
+ */
+
+/*start third-story 
+ */
+.third-story img {
+  width: 120px;
+  border-radius: 10px;
+  height: 200px;
+  position: absolute;
+}
+
+.third-story .small-img {
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+  border-radius: 50px;
+  border: 2px solid #1877f2;
+}
+
+
+.third-story p {
+  display: flex;
+  padding-top: 170px;
+  padding-left: 8px;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-weight: 700;
+  border: 10px black;
+
+
+}
+
+/*end third-story 
+ */
+
+
+/* start fourth-story
+ */
+.fourth-story img {
+  width: 120px;
+  border-radius: 10px;
+  height: 200px;
+  position: absolute;
+}
+
+.fourth-story .small-img {
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+  border-radius: 50px;
+
+  border: 2px solid #1877f2;
+}
+
+
+.fourth-story p {
+  display: flex;
+  padding-top: 170px;
+  padding-left: 8px;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-weight: 700;
+  border: 10px black;
+}
+
+/* end Fourth-story
+ */
+
+/* start fifth-story */
+
+.fifth-story img {
+  width: 120px;
+  border-radius: 10px;
+  height: 200px;
+  position: absolute;
+}
+
+.fifth-story .small-img {
+  height: 35px;
+  width: 35px;
+  margin: 8px;
+  border-radius: 50px;
+  border: 2px solid #1877f2;
+}
+
+
+.fifth-story p {
+  display: flex;
+  padding-top: 170px;
+  padding-left: 8px;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-weight: 700;
+  border: 10px black;
+}
+
+/* end fifth-story
+ */
+
+/* Start What is your mind
+ */
+.mind {
+  background-color: white;
+  width: 78%;
+  height: 4%;
+  margin: 20px 90px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #ddd;
+  padding: 5px;
+}
+
+.mind2 {
+  display: flex;
+}
+
+/* img of what is your mind */
+.mind img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* input of what is your mind */
+.mind input {
+  width: 90%;
+  height: 35%;
+  margin-top: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #f0f2f5;
+  padding: 10px;
+
+}
+
+/* hr */
+hr {
+  width: 95%;
+  margin-left: 15px;
+  margin-top: 18px;
+}
+
+/* mind icons */
+.mind-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+/* Grouping icons */
+.live-icon,
+.img-v,
+.smile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.img-v h3,
+.smile h3 {
+  margin-left: 7px;
+  color: rgb(94 94 94);
+  font-size: 16px;
+  font-family: Font Awesome 6 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* live icon */
+.live-icon i {
+  color: #f3425f;
+
+}
+
+.live-icon h3 {
+  font-size: 16px;
+  color: rgb(94 94 94);
+}
+
+/* img-vedio color */
+.img-v {
+  color: #45bd62;
+  ;
+}
+
+/* smile color */
+.smile {
+  color: #f7b928;
+}
+
+/* post */
+.post {
+  background-color: white;
+  box-shadow: rgb(221, 221, 221) 0px 0px 5px 5px;
+  width: 78%;
+  height: 16%;
+  margin-left: 90px;
+  border-radius: 10px;
+}
+
+.post-2 .small_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+
+.post-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-2 h3 {
+  padding-right: 70%;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post-2 .fa-ellipsis-h {
+  padding-right: 20px;
+}
+
+.post h6 {
+  margin-left: 12%;
+  font-size: 12px;
+  position: relative;
+  bottom: 4%;
+  color: #898e94;
+  font-family: sans-serif;
+}
+
+.post p {
+  margin-left: 40px;
+  margin-bottom: 8px;
+}
+
+
+.post img {
+  width: 90%;
+  height: 60%;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+
+.reacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #898e94;
+  padding: 20px 50px;
+font-size: 15px;
+}
+
+.reacts div {
+  display: flex;
+}
+
+.reacts p{
+  position: relative;
+  right: 28%;
+bottom: 4px;
+  font-weight: bold;
+font-size: 18px;
+display: flex;
+
+}
+
+.post .fa-thumbs-up{
+position: relative;
+left: 8px;
+bottom: 2px;
+  font-size: 17px;}
+  
